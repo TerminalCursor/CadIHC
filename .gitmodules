@@ -1,0 +1,3 @@
+[submodule "CadIHC-SegPrep"]
+	path = CadIHC-SegPrep
+	url = https://github.com/TerminalCursor/CadIHC-SegPrep.git
