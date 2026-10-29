@@ -1,0 +1,25 @@
+[workspace]
+channels = ["pytorch", "nvidia", "conda-forge"]
+channel-priority = "disabled"
+name = "prism"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[system-requirements]
+cuda = "12.5"
+
+[tasks]
+
+[dependencies]
+python = "*"
+pip = "*"
+pytorch = "*"
+torchvision = "*"
+ipykernel = "*"
+ipywidgets = "*"
+numpy = "*"
+matplotlib = "*"
+scipy = "*"
+pandas = ">=3.0.0,<4"
+tqdm = ">=4.67.1,<5"
+timm = ">=1.0.28,<2"

@@ -1,0 +1,16 @@
+[workspace]
+authors = ["Christian Cunningham <cc@local.lan>"]
+channels = ["conda-forge"]
+name = "ImageUmaps"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.14.4,<3.15"
+umap-learn = ">=0.5.12,<0.6"
+matplotlib = ">=3.10.8,<4"
+seaborn = ">=0.13.2,<0.14"
+pandas = ">=3.0.2,<4"
+pyright = ">=1.1.409,<2"

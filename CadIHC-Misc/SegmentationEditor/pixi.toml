@@ -1,0 +1,19 @@
+[workspace]
+authors = ["Christian Cunningham <cc@local.lan>"]
+channels = ["conda-forge"]
+name = "SegmentationEditor"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+numpy = ">=2.4.2,<3"
+tifffile = ">=2026.2.24,<2027"
+mapbox_earcut = ">=1.0.3,<2"
+matplotlib = ">=3.10.8,<4"
+scipy = ">=1.17.1,<2"
+
+[pypi-dependencies]
+raylib = ">=5.5.0.4, <6"
+opencv-python = ">=4.13.0.92, <5"
